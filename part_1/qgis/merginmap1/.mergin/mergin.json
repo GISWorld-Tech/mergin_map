@@ -1,0 +1,70 @@
+{
+  "access": {
+    "owners": [
+      92628
+    ],
+    "ownersnames": [
+      "mohammad_gisworld"
+    ],
+    "public": false,
+    "readers": [
+      92628
+    ],
+    "readersnames": [
+      "mohammad_gisworld"
+    ],
+    "writers": [
+      92628
+    ],
+    "writersnames": [
+      "mohammad_gisworld"
+    ]
+  },
+  "created": "2024-06-09T10:29:03Z",
+  "creator": 92628,
+  "disk_usage": 461732,
+  "files": [
+    {
+      "checksum": "42ca4989173849e8966640cce32c9e6e4e2b4500",
+      "mtime": "2024-06-09T10:35:00.741922Z",
+      "path": "merginmap1.qgz",
+      "size": 9821
+    },
+    {
+      "checksum": "1534e3a42c061a88b0c689b90d66b1d166384df0",
+      "diff": {
+        "checksum": "5372cffee302d298d7c989064bf0358d92f77816",
+        "mtime": "2024-06-09T12:36:43.096463+02:00",
+        "path": "merginmap1.gpkg-diff-8e25f475-7ab2-45d0-9955-7c3bc85d2287",
+        "size": 191
+      },
+      "mtime": "2024-06-09T10:36:43.349597Z",
+      "path": "merginmap1.gpkg",
+      "size": 450560
+    },
+    {
+      "checksum": "ece4ac7aa23bccda1a01c054d68d6cbe9853d32b",
+      "mtime": "2024-06-09T10:32:05.874792Z",
+      "path": "config.yaml",
+      "size": 1351
+    }
+  ],
+  "id": "890b666f-61a1-4f4c-ade2-3a0dda14e93f",
+  "name": "merginmap1",
+  "namespace": "gisworld",
+  "permissions": {
+    "delete": true,
+    "update": true,
+    "upload": true
+  },
+  "removed_at": null,
+  "role": "owner",
+  "tags": [
+    "valid_qgis",
+    "input_use"
+  ],
+  "updated": "2024-06-09T10:36:45.078491",
+  "uploads": [],
+  "version": "v5",
+  "workspace_id": 86014
+}
