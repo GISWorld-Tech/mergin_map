@@ -1,4 +1,4 @@
-CREATE TABLE osm_building (
+CREATE TABLE merginmap.osm_building (
     id SERIAL PRIMARY KEY,
     geom geometry(Polygon, 25832),
     gml_id VARCHAR(64) NULL,

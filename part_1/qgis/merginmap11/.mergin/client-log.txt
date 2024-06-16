@@ -1,0 +1,394 @@
+2024-06-16 21:27:45,868 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:27:45,868 --- start push gisworld/merginmap11
+2024-06-16 21:27:46,099 got project info: local version v0 / server version v0
+2024-06-16 21:27:46,333 push changes:
+{'added': [{'checksum': '7286700554803c1027d15a97e371adbf9e682036',
+            'chunks': ['d9fcc32f-ae55-4a8a-bb9d-ca444bc73a34'],
+            'mtime': datetime.datetime(2024, 6, 16, 21, 27, 45, 3266, tzinfo=tzlocal()),
+            'path': 'merginmap11.qgz',
+            'size': 5927}],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': []}
+2024-06-16 21:27:46,608 got transaction ID 01e0d7d2-e06a-49c0-897a-b558e218d4e6
+2024-06-16 21:27:46,608 will upload 1 items with total size 5927
+2024-06-16 21:27:46,610 Uploading /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.qgz part=0
+2024-06-16 21:27:46,903 Upload finished: /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.qgz
+2024-06-16 21:27:46,927 Finishing transaction 01e0d7d2-e06a-49c0-897a-b558e218d4e6
+2024-06-16 21:27:47,428 --- push finished - new project version v1
+2024-06-16 21:31:22,496 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:31:22,496 --- start pull gisworld/merginmap11
+2024-06-16 21:31:22,752 got project info: local version v1 / server version v2
+2024-06-16 21:31:22,754 pull changes:
+{'added': [{'checksum': '434aa06397209583d4dc50ce517a2dc9ee300983',
+            'history': {'v2': {'change': 'added',
+                               'checksum': '434aa06397209583d4dc50ce517a2dc9ee300983',
+                               'mtime': '2024-06-16T19:29:39.767478Z',
+                               'path': 'merginmap11.gpkg',
+                               'size': 417792,
+                               'upload_file': '/tmp/mergin-py-client-pg78pmor/merginmap11.gpkg'}},
+            'mtime': '2024-06-16T19:29:39.767478Z',
+            'path': 'merginmap11.gpkg',
+            'size': 417792}],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': []}
+2024-06-16 21:31:22,754 will download 1 chunks, total size 417792
+2024-06-16 21:31:22,755 Downloading merginmap11.gpkg version=v2 diff=False part=0
+2024-06-16 21:31:23,053 Download finished: merginmap11.gpkg
+2024-06-16 21:31:23,244 finalizing pull
+2024-06-16 21:31:23,284 --- pull finished -- at version v2
+2024-06-16 21:31:23,768 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:31:23,768 --- start push gisworld/merginmap11
+2024-06-16 21:31:23,994 got project info: local version v2 / server version v2
+2024-06-16 21:31:24,224 push changes:
+{'added': [{'checksum': '9b9597e892fdd84ed45255ce11c270bfc63e7a2d',
+            'chunks': ['8d554758-8acf-4916-a6a2-58d8befa967b'],
+            'mtime': datetime.datetime(2024, 6, 16, 21, 26, 21, 195529, tzinfo=tzlocal()),
+            'path': 'config.yaml',
+            'size': 1367}],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': []}
+2024-06-16 21:31:24,490 got transaction ID 2a23f747-a3b3-4fba-ab6e-905d8a56033e
+2024-06-16 21:31:24,491 will upload 1 items with total size 1367
+2024-06-16 21:31:24,492 Uploading /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/config.yaml part=0
+2024-06-16 21:31:24,768 Upload finished: /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/config.yaml
+2024-06-16 21:31:24,778 Finishing transaction 2a23f747-a3b3-4fba-ab6e-905d8a56033e
+2024-06-16 21:31:25,179 --- push finished - new project version v3
+2024-06-16 21:32:15,943 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:32:15,967 checkpoint - return value: (0, 1, 1)
+2024-06-16 21:32:15,975 checkpoint - new size 417792 checksum f219540a6c98af624c0b1a5d4f221b08c3fccab3
+2024-06-16 21:32:17,924 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:32:17,931 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:32:17,938 checkpoint - new size 401408 checksum 562e4e14035258bd41b0f5852787fcaa782f174e
+2024-06-16 21:32:18,200 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:32:18,200 --- start pull gisworld/merginmap11
+2024-06-16 21:32:18,439 got project info: local version v3 / server version v3
+2024-06-16 21:32:18,439 --- pull - nothing to do (already at server version)
+2024-06-16 21:32:18,931 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:32:18,931 --- start push gisworld/merginmap11
+2024-06-16 21:32:19,170 got project info: local version v3 / server version v3
+2024-06-16 21:32:19,402 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:32:19,408 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:32:19,415 checkpoint - new size 401408 checksum 6204a9e707ab89c7a2a00fb780d1fcbbc5525251
+2024-06-16 21:32:19,422 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': '9f4b5e86d89d5a789ba255476966e3de75becc8b',
+              'chunks': ['605bb1fe-5fff-4bf3-88d9-180c13fc8c07'],
+              'mtime': datetime.datetime(2024, 6, 16, 21, 32, 13, 747163, tzinfo=tzlocal()),
+              'origin_checksum': '7286700554803c1027d15a97e371adbf9e682036',
+              'path': 'merginmap11.qgz',
+              'size': 16242}]}
+2024-06-16 21:32:19,696 got transaction ID e47a335c-e51b-4a5d-928d-2110ac9b277e
+2024-06-16 21:32:19,697 will upload 1 items with total size 16242
+2024-06-16 21:32:19,698 Uploading /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.qgz part=0
+2024-06-16 21:32:20,066 Upload finished: /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.qgz
+2024-06-16 21:32:20,120 Finishing transaction e47a335c-e51b-4a5d-928d-2110ac9b277e
+2024-06-16 21:32:20,635 --- push finished - new project version v4
+2024-06-16 21:33:35,012 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:33:35,016 checkpoint - return value: (0, 100, 100)
+2024-06-16 21:33:35,021 checkpoint - new size 401408 checksum 4259fd74497b199dbdaba24b68dd81b8af2422b2
+2024-06-16 21:33:36,898 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:33:36,904 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:33:36,910 checkpoint - new size 401408 checksum 00ca65cf776c5b007a24a5482f8d0803407126a6
+2024-06-16 21:33:37,173 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:33:37,174 --- start pull gisworld/merginmap11
+2024-06-16 21:33:37,414 got project info: local version v4 / server version v4
+2024-06-16 21:33:37,414 --- pull - nothing to do (already at server version)
+2024-06-16 21:33:37,901 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:33:37,902 --- start push gisworld/merginmap11
+2024-06-16 21:33:38,136 got project info: local version v4 / server version v4
+2024-06-16 21:33:38,368 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:33:38,373 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:33:38,381 checkpoint - new size 401408 checksum 581ed931f3e02e8a36253d9f81638d0d6061c864
+2024-06-16 21:33:38,387 push changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': '434aa06397209583d4dc50ce517a2dc9ee300983',
+              'chunks': ['7c3b894a-9dfd-48b6-a4f1-1055a3c543ee'],
+              'diff': {'checksum': '2efe888d9e4cf2dafe03ce307278b74eba99a8de',
+                       'mtime': datetime.datetime(2024, 6, 16, 21, 33, 38, 383046, tzinfo=tzlocal()),
+                       'path': 'merginmap11.gpkg-diff-9070cc76-33ab-4c3f-a958-a970e0c053b8',
+                       'size': 255},
+              'mtime': datetime.datetime(2024, 6, 16, 21, 33, 38, 367046, tzinfo=tzlocal()),
+              'origin_checksum': '434aa06397209583d4dc50ce517a2dc9ee300983',
+              'path': 'merginmap11.gpkg',
+              'size': 401408}]}
+2024-06-16 21:33:38,665 got transaction ID f8a43ecd-ef70-410e-b028-88b4382822ce
+2024-06-16 21:33:38,665 will upload 1 items with total size 255
+2024-06-16 21:33:38,666 Uploading /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/.mergin/merginmap11.gpkg-diff-9070cc76-33ab-4c3f-a958-a970e0c053b8 part=0
+2024-06-16 21:33:38,948 Upload finished: /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/.mergin/merginmap11.gpkg-diff-9070cc76-33ab-4c3f-a958-a970e0c053b8
+2024-06-16 21:33:38,952 Finishing transaction f8a43ecd-ef70-410e-b028-88b4382822ce
+2024-06-16 21:33:40,201 updating basefile (diff) for: merginmap11.gpkg
+2024-06-16 21:33:40,208 --- push finished - new project version v5
+2024-06-16 21:34:16,856 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:34:16,862 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:34:16,869 checkpoint - new size 401408 checksum 9519d7f5923abb2bcac8ca39912a35cfe992aade
+2024-06-16 21:34:18,547 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:34:18,553 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:34:18,559 checkpoint - new size 401408 checksum e3f0d7b9da56d724487a3487fa6919402d755c65
+2024-06-16 21:34:18,822 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:34:18,822 --- start pull gisworld/merginmap11
+2024-06-16 21:34:19,059 got project info: local version v5 / server version v6
+2024-06-16 21:34:19,062 pull changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': '3a4f9d910cdbe60fcc3225e744b50c8404501244',
+              'diff': {'checksum': 'cb1fea28951ef0f620dc7529b00bdfa9d393af07',
+                       'mtime': '2024-06-16T20:34:10.650993+01:00',
+                       'path': 'merginmap11.gpkg-diff-cbdbc015-3ba3-4a67-9adb-7997098f7b6b',
+                       'size': 66},
+              'diffs': ['merginmap11.gpkg-diff-cbdbc015-3ba3-4a67-9adb-7997098f7b6b'],
+              'history': {'v5': {'change': 'updated',
+                                 'checksum': 'aa68204f4c1ebd9436cd81b72db4cbf72576a12a',
+                                 'diff': {'checksum': '2efe888d9e4cf2dafe03ce307278b74eba99a8de',
+                                          'mtime': '2024-06-16T21:33:38.383046+02:00',
+                                          'path': 'merginmap11.gpkg-diff-9070cc76-33ab-4c3f-a958-a970e0c053b8',
+                                          'size': 255},
+                                 'mtime': '2024-06-16T19:33:38.588680Z',
+                                 'path': 'merginmap11.gpkg',
+                                 'size': 417792},
+                          'v6': {'change': 'updated',
+                                 'checksum': '3a4f9d910cdbe60fcc3225e744b50c8404501244',
+                                 'diff': {'checksum': 'cb1fea28951ef0f620dc7529b00bdfa9d393af07',
+                                          'mtime': '2024-06-16T20:34:10.650993+01:00',
+                                          'path': 'merginmap11.gpkg-diff-cbdbc015-3ba3-4a67-9adb-7997098f7b6b',
+                                          'size': 66},
+                                 'mtime': '2024-06-16T19:34:10.855926Z',
+                                 'path': 'merginmap11.gpkg',
+                                 'size': 417792}},
+              'mtime': '2024-06-16T19:34:10.855926Z',
+              'origin_checksum': 'aa68204f4c1ebd9436cd81b72db4cbf72576a12a',
+              'path': 'merginmap11.gpkg',
+              'size': 417792}]}
+2024-06-16 21:34:19,062 will download 1 chunks, total size 66
+2024-06-16 21:34:19,063 Downloading merginmap11.gpkg version=v6 diff=True part=0
+2024-06-16 21:34:19,298 Download finished: merginmap11.gpkg
+2024-06-16 21:34:19,349 finalizing pull
+2024-06-16 21:34:19,362 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:34:19,366 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:34:19,373 checkpoint - new size 401408 checksum 64163e8785cc60827e59235aeb3ea30a6cb29e10
+2024-06-16 21:34:19,379 updating file without rebase: merginmap11.gpkg
+2024-06-16 21:34:19,389 update successful
+2024-06-16 21:34:19,390 --- pull finished -- at version v6
+2024-06-16 21:34:19,647 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:34:19,647 --- start push gisworld/merginmap11
+2024-06-16 21:34:19,870 got project info: local version v6 / server version v6
+2024-06-16 21:34:20,121 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:34:20,127 checkpoint - return value: (0, 102, 102)
+2024-06-16 21:34:20,134 checkpoint - new size 401408 checksum 5ffe290dacd3cd009641aede44ee953fe00ad372
+2024-06-16 21:34:20,140 push changes:
+{'added': [], 'removed': [], 'renamed': [], 'updated': []}
+2024-06-16 21:34:20,140 --- push gisworld/merginmap11 - nothing to do
+2024-06-16 21:36:33,908 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:36:33,914 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:36:33,921 checkpoint - new size 401408 checksum 7528eb9102f8432ef58b8ed3781545df63691934
+2024-06-16 21:36:35,627 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:36:35,632 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:36:35,639 checkpoint - new size 401408 checksum d0807c5426a2aa7489941b6cb183f15cb0da77e2
+2024-06-16 21:36:35,902 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:36:35,902 --- start pull gisworld/merginmap11
+2024-06-16 21:36:36,136 got project info: local version v6 / server version v8
+2024-06-16 21:36:36,139 pull changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': 'fc2a88fdefa9a43c13974cb92fd54b8e95037e3a',
+              'diff': {'checksum': '9f1d3248d843ac40cf128a290ad7949871ed2c67',
+                       'mtime': '2024-06-16T20:36:34.234710+01:00',
+                       'path': 'merginmap11.gpkg-diff-f7563da9-9e9b-404e-9fb5-1b202ec21851',
+                       'size': 370},
+              'diffs': ['merginmap11.gpkg-diff-4d57adcf-c269-4ed5-bf96-a98304f3fd5f',
+                        'merginmap11.gpkg-diff-f7563da9-9e9b-404e-9fb5-1b202ec21851'],
+              'history': {'v6': {'change': 'updated',
+                                 'checksum': '3a4f9d910cdbe60fcc3225e744b50c8404501244',
+                                 'diff': {'checksum': 'cb1fea28951ef0f620dc7529b00bdfa9d393af07',
+                                          'mtime': '2024-06-16T20:34:10.650993+01:00',
+                                          'path': 'merginmap11.gpkg-diff-cbdbc015-3ba3-4a67-9adb-7997098f7b6b',
+                                          'size': 66},
+                                 'mtime': '2024-06-16T19:34:10.855926Z',
+                                 'path': 'merginmap11.gpkg',
+                                 'size': 417792},
+                          'v7': {'change': 'updated',
+                                 'checksum': 'b7d4e26a30faf3cb23cad6334a8542aba6e8ac0e',
+                                 'diff': {'checksum': '5b6f5afd7d450071ed620692846bdfb923d58845',
+                                          'mtime': '2024-06-16T20:36:08.766765+01:00',
+                                          'path': 'merginmap11.gpkg-diff-4d57adcf-c269-4ed5-bf96-a98304f3fd5f',
+                                          'size': 400},
+                                 'mtime': '2024-06-16T19:36:08.974607Z',
+                                 'path': 'merginmap11.gpkg',
+                                 'size': 417792},
+                          'v8': {'change': 'updated',
+                                 'checksum': 'fc2a88fdefa9a43c13974cb92fd54b8e95037e3a',
+                                 'diff': {'checksum': '9f1d3248d843ac40cf128a290ad7949871ed2c67',
+                                          'mtime': '2024-06-16T20:36:34.234710+01:00',
+                                          'path': 'merginmap11.gpkg-diff-f7563da9-9e9b-404e-9fb5-1b202ec21851',
+                                          'size': 370},
+                                 'mtime': '2024-06-16T19:36:34.429235Z',
+                                 'path': 'merginmap11.gpkg',
+                                 'size': 417792}},
+              'mtime': '2024-06-16T19:36:34.429235Z',
+              'origin_checksum': '3a4f9d910cdbe60fcc3225e744b50c8404501244',
+              'path': 'merginmap11.gpkg',
+              'size': 417792}]}
+2024-06-16 21:36:36,140 will download 2 chunks, total size 770
+2024-06-16 21:36:36,140 Downloading merginmap11.gpkg version=v7 diff=True part=0
+2024-06-16 21:36:36,141 Downloading merginmap11.gpkg version=v8 diff=True part=0
+2024-06-16 21:36:36,383 Download finished: merginmap11.gpkg
+2024-06-16 21:36:36,400 Download finished: merginmap11.gpkg
+2024-06-16 21:36:36,442 finalizing pull
+2024-06-16 21:36:36,462 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:36:36,466 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:36:36,473 checkpoint - new size 401408 checksum 576a17a39bdb9e457c7ca0a300dba82bafc49d68
+2024-06-16 21:36:36,480 updating file without rebase: merginmap11.gpkg
+2024-06-16 21:36:36,490 update successful
+2024-06-16 21:36:36,490 --- pull finished -- at version v8
+2024-06-16 21:36:36,750 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:36:36,750 --- start push gisworld/merginmap11
+2024-06-16 21:36:36,975 got project info: local version v8 / server version v8
+2024-06-16 21:36:37,208 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:36:37,213 checkpoint - return value: (0, 102, 102)
+2024-06-16 21:36:37,220 checkpoint - new size 401408 checksum 0e6cc582737f4fb339d717cd80b4e8d700415f88
+2024-06-16 21:36:37,227 push changes:
+{'added': [], 'removed': [], 'renamed': [], 'updated': []}
+2024-06-16 21:36:37,227 --- push gisworld/merginmap11 - nothing to do
+2024-06-16 21:41:21,163 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:41:21,169 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:41:21,176 checkpoint - new size 401408 checksum 91c177d126dfb6d854fdae748c8ad9fe5d65dd39
+2024-06-16 21:41:22,885 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:41:22,890 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:41:22,897 checkpoint - new size 401408 checksum 41cc5549d1d68e231d96425666fc85445907099c
+2024-06-16 21:42:07,287 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:42:07,292 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:42:07,300 checkpoint - new size 401408 checksum 8283ed94c4db936237d16b7d73eaefbbf964fdfd
+2024-06-16 21:42:09,117 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:42:09,123 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:42:09,130 checkpoint - new size 401408 checksum 061af7f86888a61be8021041dc0ff5f311c530ce
+2024-06-16 21:42:19,411 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:42:19,416 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:42:19,423 checkpoint - new size 401408 checksum d990986e2cce7a578b1e0370a7cf232483a7f8cf
+2024-06-16 21:42:22,665 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:42:22,671 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:42:22,678 checkpoint - new size 401408 checksum 71c1ae5f904ddba1afe733b7c8dd16c0e3b4f177
+2024-06-16 21:42:22,942 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:42:22,943 --- start pull gisworld/merginmap11
+2024-06-16 21:42:23,177 got project info: local version v8 / server version v9
+2024-06-16 21:42:23,180 pull changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': '1e7c01e158f98b8212c5ffb08dcc2d700b9fe953',
+              'diff': {'checksum': 'db76c094c5065e6ef52e423d4ae14d21f645dff2',
+                       'path': 'merginmap11.gpkg-diff-cecda5f5-aa3c-4344-9cbe-4c5694054076',
+                       'size': 91},
+              'diffs': ['merginmap11.gpkg-diff-cecda5f5-aa3c-4344-9cbe-4c5694054076'],
+              'history': {'v8': {'change': 'updated',
+                                 'checksum': 'fc2a88fdefa9a43c13974cb92fd54b8e95037e3a',
+                                 'diff': {'checksum': '9f1d3248d843ac40cf128a290ad7949871ed2c67',
+                                          'mtime': '2024-06-16T20:36:34.234710+01:00',
+                                          'path': 'merginmap11.gpkg-diff-f7563da9-9e9b-404e-9fb5-1b202ec21851',
+                                          'size': 370},
+                                 'mtime': '2024-06-16T19:36:34.429235Z',
+                                 'path': 'merginmap11.gpkg',
+                                 'size': 417792},
+                          'v9': {'change': 'updated',
+                                 'checksum': '1e7c01e158f98b8212c5ffb08dcc2d700b9fe953',
+                                 'diff': {'checksum': 'db76c094c5065e6ef52e423d4ae14d21f645dff2',
+                                          'path': 'merginmap11.gpkg-diff-cecda5f5-aa3c-4344-9cbe-4c5694054076',
+                                          'size': 91},
+                                 'mtime': '2024-06-16T19:42:14.475320Z',
+                                 'path': 'merginmap11.gpkg',
+                                 'size': 417792}},
+              'mtime': '2024-06-16T19:42:14.475320Z',
+              'origin_checksum': 'fc2a88fdefa9a43c13974cb92fd54b8e95037e3a',
+              'path': 'merginmap11.gpkg',
+              'size': 417792}]}
+2024-06-16 21:42:23,180 will download 1 chunks, total size 91
+2024-06-16 21:42:23,182 Downloading merginmap11.gpkg version=v9 diff=True part=0
+2024-06-16 21:42:23,422 Download finished: merginmap11.gpkg
+2024-06-16 21:42:23,468 finalizing pull
+2024-06-16 21:42:23,480 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:42:23,485 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:42:23,492 checkpoint - new size 401408 checksum 753ecf70213ee4f3f85d4867f2e7da6efd9bd9b7
+2024-06-16 21:42:23,498 updating file without rebase: merginmap11.gpkg
+2024-06-16 21:42:23,509 update successful
+2024-06-16 21:42:23,509 --- pull finished -- at version v9
+2024-06-16 21:42:23,766 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:42:23,766 --- start push gisworld/merginmap11
+2024-06-16 21:42:23,988 got project info: local version v9 / server version v9
+2024-06-16 21:42:24,223 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:42:24,229 checkpoint - return value: (0, 99, 99)
+2024-06-16 21:42:24,236 checkpoint - new size 401408 checksum 5c51641242fc908bb76e75f4299f344dbeddd3a5
+2024-06-16 21:42:24,243 push changes:
+{'added': [], 'removed': [], 'renamed': [], 'updated': []}
+2024-06-16 21:42:24,243 --- push gisworld/merginmap11 - nothing to do
+2024-06-16 21:43:08,167 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:43:08,168 checkpoint - return value: (0, 0, 0)
+2024-06-16 21:43:08,179 checkpoint - new size 401408 checksum 7114349b66211ce9341a3a2880820104a6bdac03
+2024-06-16 21:43:10,897 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:43:10,902 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:43:10,909 checkpoint - new size 401408 checksum 7f07b834634c86e1ca39560c448f4b21c0f3a0ab
+2024-06-16 21:43:19,087 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:43:19,093 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:43:19,100 checkpoint - new size 401408 checksum f1da7eea28c70947fc8a03e91c81df36548d88e9
+2024-06-16 21:43:20,940 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:43:20,946 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:43:20,953 checkpoint - new size 401408 checksum e382568c832f2ecebccd6747ff6dbb9fcdafc663
+2024-06-16 21:43:21,215 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:43:21,215 --- start pull gisworld/merginmap11
+2024-06-16 21:43:21,450 got project info: local version v9 / server version v10
+2024-06-16 21:43:21,452 pull changes:
+{'added': [],
+ 'removed': [],
+ 'renamed': [],
+ 'updated': [{'checksum': '37e6c54dc7e39ba04b0da488fac38ee0abe4909d',
+              'diff': {'checksum': 'c474647b16f6722c199554b4ebc4a5b2b2b7ea53',
+                       'mtime': '2024-06-16T20:43:09.489653+01:00',
+                       'path': 'merginmap11.gpkg-diff-ba363a47-ab0a-40a1-abcb-13ac762b43b0',
+                       'size': 496},
+              'diffs': ['merginmap11.gpkg-diff-ba363a47-ab0a-40a1-abcb-13ac762b43b0'],
+              'history': {'v10': {'change': 'updated',
+                                  'checksum': '37e6c54dc7e39ba04b0da488fac38ee0abe4909d',
+                                  'diff': {'checksum': 'c474647b16f6722c199554b4ebc4a5b2b2b7ea53',
+                                           'mtime': '2024-06-16T20:43:09.489653+01:00',
+                                           'path': 'merginmap11.gpkg-diff-ba363a47-ab0a-40a1-abcb-13ac762b43b0',
+                                           'size': 496},
+                                  'mtime': '2024-06-16T19:43:09.694239Z',
+                                  'path': 'merginmap11.gpkg',
+                                  'size': 417792},
+                          'v9': {'change': 'updated',
+                                 'checksum': '1e7c01e158f98b8212c5ffb08dcc2d700b9fe953',
+                                 'diff': {'checksum': 'db76c094c5065e6ef52e423d4ae14d21f645dff2',
+                                          'path': 'merginmap11.gpkg-diff-cecda5f5-aa3c-4344-9cbe-4c5694054076',
+                                          'size': 91},
+                                 'mtime': '2024-06-16T19:42:14.475320Z',
+                                 'path': 'merginmap11.gpkg',
+                                 'size': 417792}},
+              'mtime': '2024-06-16T19:43:09.694239Z',
+              'origin_checksum': '1e7c01e158f98b8212c5ffb08dcc2d700b9fe953',
+              'path': 'merginmap11.gpkg',
+              'size': 417792}]}
+2024-06-16 21:43:21,453 will download 1 chunks, total size 496
+2024-06-16 21:43:21,454 Downloading merginmap11.gpkg version=v10 diff=True part=0
+2024-06-16 21:43:21,706 Download finished: merginmap11.gpkg
+2024-06-16 21:43:21,743 finalizing pull
+2024-06-16 21:43:21,754 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:43:21,759 checkpoint - return value: (0, 98, 98)
+2024-06-16 21:43:21,766 checkpoint - new size 401408 checksum 7491e6947cd217f062315734c6520519d78ca16e
+2024-06-16 21:43:21,773 updating file without rebase: merginmap11.gpkg
+2024-06-16 21:43:21,782 update successful
+2024-06-16 21:43:21,783 --- pull finished -- at version v10
+2024-06-16 21:43:22,040 --- version: Python-client/0.9.0 Plugin/2024.1 QGIS/3.34.7 (Linux/Ubuntu)
+2024-06-16 21:43:22,040 --- start push gisworld/merginmap11
+2024-06-16 21:43:22,268 got project info: local version v10 / server version v10
+2024-06-16 21:43:22,507 checkpoint - going to add it in /home/mohammad/youtube/merginmap/part_1/qgis/merginmap11/merginmap11.gpkg
+2024-06-16 21:43:22,514 checkpoint - return value: (0, 99, 99)
+2024-06-16 21:43:22,521 checkpoint - new size 401408 checksum 139a2be255340b579a07aabba90f378ff33d6867
+2024-06-16 21:43:22,527 push changes:
+{'added': [], 'removed': [], 'renamed': [], 'updated': []}
+2024-06-16 21:43:22,528 --- push gisworld/merginmap11 - nothing to do

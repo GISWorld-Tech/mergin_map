@@ -2,7 +2,7 @@
 mergin:
   url: https://app.merginmaps.com
   username: mohammad_gisworld
-  password: Mhgz@@1996
+  password: Merginmap1234!
 
 # How to initialize the sync - one of the two options:
 # - "gpkg" - use existing GeoPackage from given Mergin Maps project (and create database schema during init)
@@ -12,7 +12,7 @@ init_from: db
 connections:
    - driver: postgres
      # Parameters to PostgreSQL database
-     conn_info: "host=localhost port=5435 dbname=merginmap user=merginmap password=merginmap"
+     conn_info: "host=gisworld-tech.com port=5435 dbname=merginmap user=merginmap password=merginmap"
      # Database schema that will be synchronized with Mergin Maps project
      # (it must exist if doing init from database, it must not exist if doing init from geopackage)
      modified: merginmap
@@ -21,10 +21,10 @@ connections:
      base: merginmap_base
      
      # Mergin Maps project to use (<workspace>/<project>)
-     mergin_project: gisworld/merginmap1
+     mergin_project: gisworld/merginmap11
      # Path to the GeoPackage within the Mergin Maps project above
      # (it must exist if doing init from geopackage, it must not exist if doing init from database)
-     sync_file: merginmap1.gpkg
+     sync_file: merginmap11.gpkg
 
 daemon:
   # How often to synchronize (in seconds)

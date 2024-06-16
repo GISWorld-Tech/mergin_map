@@ -1,0 +1,107 @@
+{
+  "access": {
+    "owners": [
+      92628
+    ],
+    "ownersnames": [
+      "mohammad_gisworld"
+    ],
+    "public": false,
+    "readers": [
+      92628,
+      89890
+    ],
+    "readersnames": [
+      "mohammad_gisworld",
+      "mhgz"
+    ],
+    "writers": [
+      92628,
+      89890
+    ],
+    "writersnames": [
+      "mohammad_gisworld",
+      "mhgz"
+    ]
+  },
+  "created": "2024-06-16T19:27:45Z",
+  "creator": 92628,
+  "disk_usage": 435401,
+  "files": [
+    {
+      "checksum": "9f4b5e86d89d5a789ba255476966e3de75becc8b",
+      "history": {},
+      "mtime": "2024-06-16T19:32:19.623017Z",
+      "path": "merginmap11.qgz",
+      "size": 16242
+    },
+    {
+      "checksum": "37e6c54dc7e39ba04b0da488fac38ee0abe4909d",
+      "diff": {
+        "checksum": "c474647b16f6722c199554b4ebc4a5b2b2b7ea53",
+        "mtime": "2024-06-16T20:43:09.489653+01:00",
+        "path": "merginmap11.gpkg-diff-ba363a47-ab0a-40a1-abcb-13ac762b43b0",
+        "size": 496
+      },
+      "history": {
+        "v10": {
+          "change": "updated",
+          "checksum": "37e6c54dc7e39ba04b0da488fac38ee0abe4909d",
+          "diff": {
+            "checksum": "c474647b16f6722c199554b4ebc4a5b2b2b7ea53",
+            "mtime": "2024-06-16T20:43:09.489653+01:00",
+            "path": "merginmap11.gpkg-diff-ba363a47-ab0a-40a1-abcb-13ac762b43b0",
+            "size": 496
+          },
+          "mtime": "2024-06-16T19:43:09.694239Z",
+          "path": "merginmap11.gpkg",
+          "size": 417792
+        },
+        "v9": {
+          "change": "updated",
+          "checksum": "1e7c01e158f98b8212c5ffb08dcc2d700b9fe953",
+          "diff": {
+            "checksum": "db76c094c5065e6ef52e423d4ae14d21f645dff2",
+            "path": "merginmap11.gpkg-diff-cecda5f5-aa3c-4344-9cbe-4c5694054076",
+            "size": 91
+          },
+          "mtime": "2024-06-16T19:42:14.475320Z",
+          "path": "merginmap11.gpkg",
+          "size": 417792
+        }
+      },
+      "mtime": "2024-06-16T19:43:09.694239Z",
+      "path": "merginmap11.gpkg",
+      "size": 417792,
+      "origin_checksum": "1e7c01e158f98b8212c5ffb08dcc2d700b9fe953",
+      "diffs": [
+        "merginmap11.gpkg-diff-ba363a47-ab0a-40a1-abcb-13ac762b43b0"
+      ]
+    },
+    {
+      "checksum": "9b9597e892fdd84ed45255ce11c270bfc63e7a2d",
+      "history": {},
+      "mtime": "2024-06-16T19:31:24.422496Z",
+      "path": "config.yaml",
+      "size": 1367
+    }
+  ],
+  "id": "6a85ee9f-8c37-488f-a816-6c8d469dff9d",
+  "name": "merginmap11",
+  "namespace": "gisworld",
+  "permissions": {
+    "delete": true,
+    "update": true,
+    "upload": true
+  },
+  "removed_at": null,
+  "role": "owner",
+  "tags": [
+    "valid_qgis",
+    "input_use"
+  ],
+  "updated": "2024-06-16T19:43:11.097226",
+  "uploads": [],
+  "version": "v10",
+  "workspace_id": 86014
+}
